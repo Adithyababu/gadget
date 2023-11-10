@@ -67,7 +67,8 @@ label i{
 height: 22.148px;
 flex-shrink: 0;
 }
-.main{    padding-top: 74px;
+.main{    
+    padding-top: 74px;
     width: 1440px;
     background: #EEE;
     margin: 0;
@@ -387,19 +388,20 @@ flex-shrink: 0;
 border-radius: 33px;
 background: #3E3D3D;
 }
-.fourth .row3{
-    display: flex;
-}
+
 .fourth .px{
-    margin-left: 156px;
     padding-top: 60px;
 width: 516px;
 height: 387px;
-flex-shrink: 0;
+}
+.px img{
+    margin-left: 650px;
+width: 516px;
+height: 387px;
 }
 .fourth p{ 
     margin-left: 95px;
-    padding-top: 156px;
+    margin-top: -230px;
     width: 391px;
     height: 67px;
     color: #FFF;
@@ -410,8 +412,8 @@ font-weight: 700;
 line-height: normal;
 }
 .fourth .buy{
+    margin-top: 10px;
     margin-left: 95px;
-    margin-top: -150px;
     width: 264px;
     height: 49px;
     padding: 5px 61px 4px 61px;
@@ -486,6 +488,7 @@ height: 125px;
 flex-shrink: 0;
 background: #765DF0;
 display: flex;
+justify-content: space-between;
 
 }
 .sixth .content{
@@ -634,7 +637,7 @@ margin-left: 118px;
         width: 254.077px;
         height: 370px;
         display: block;
-        background: #e9e8e8;
+        background:#000;
         text-align: center;
         
         }
@@ -780,7 +783,7 @@ margin-left: 118px;
        .image2 img{
        margin: 0;
        padding-top: 20px;
-       padding-left: 20px;
+       padding-left: 30px;
         width: 153.045px;
         height: 117.507px;
         }
@@ -788,5 +791,230 @@ margin-left: 118px;
             width: 169.668px;
             font-size: 10.318px;
             margin-left: 10px;
+        }
+        .third{
+            width: 100%;
+            display: block;
+        }
+        .sub1{
+            height: 309px;
+            width: 342px;
+            padding: 36.125px 21.96px 171.875px 142.273px;
+            border-radius: 21.674px;
+            margin: 0;
+            margin-left: 20px;
+        }
+        .sub1 p{
+            font-size: 83.363px;
+            width: 177px;
+            height: 101px;
+        }
+        .sub2{
+            margin: 0;
+            display: flex;
+            justify-content: flex-start
+        }
+        .sub2 .row1{
+            width: 147px;
+            height: 322px;
+            padding: 62px 13px 199px 29px; 
+            margin: 0;
+            margin-top: 13px;
+            margin-left: 20px;
+        }
+        .row1 p{
+            font-size: 50px;
+            width: 105px;
+            height: 61px;
+        }
+        .sub2 .row2{
+            display: block;
+            margin: 0;
+        }
+        .row2 .column1{
+            margin: 0;
+            width: 180px;
+            height: 157px;
+            padding: 18px 8px 78px 67px;
+            margin-top: 13px;
+            margin-left: 18px;
+
+        }
+        .column1 p{
+            font-size: 50px;
+        }
+        .row2 .column2{
+            width: 180px;
+            height: 153px;
+            padding: 28px 63px 64px 12px;
+            background: #050FFF;
+            margin: 0;
+            margin-left: 18px;
+            margin-top: 12px;
+        }
+        .column2 p{
+            font-size: 50px;
+        }
+        .fourth{
+            margin: 0;
+            width: 341px;
+           height: 508px;
+           margin-top: 51px;
+           margin-left: 20px;
+        }
+        .fourth .px{
+            width: 318.667px;
+           height: 239px;
+        }
+        .px img{
+            width: 318.667px;
+          height: 239px;
+          margin: 0;
+          margin-left: 10px;
+        }
+        
+        .fourth p{
+            margin: 0;
+            font-size: 36.995px;
+            margin-left: 39px;
+            margin-top: 64px;
+        }
+        .fourth .buy{
+            width: 178px;
+            height: 32px;
+            border-radius: 6.726px;
+            font-size: 22.197px;
+            padding: 3.361px 40.545px 2.598px 41.031px;
+            margin:0;
+            margin-left: 81px;
+        }
+        .kitchen{
+            width: 100%;
+        }
+        .back img{
+            display: none;
+        }
+        .large{
+            width: 100%;
+        }
+        .fifth{
+            width: 337px;
+            height: 180px;
+            margin: 0;
+            margin-left: 20px;
+            border-radius: 11.555px;
+            margin-top: 65px;
+        }
+        .mixer img{
+            margin: 0;
+            width: 139.027px;
+            height: 139.027px;
+            margin-left: 167px;
+            margin-top: 10px;
+        }
+        .mixer h1{
+            font-size: 22px;
+            margin: 0;
+            margin-top: -125px;
+            margin-left: 20px;
+        }
+        .mixer p{
+            width: 184.127px;
+            font-size: 10px;
+            margin: 0;
+            margin-left: 20px;
+            margin-top: 23px;
+        }
+        .cookware{
+            width: 100%;
+            margin: 0;
+        }
+        .sixth{
+            margin: 0;
+            height: 71px;
+            display: block;
+        }
+        
+        .sixth .content .span1{
+            margin-top: -20px;
+            width: 143px;
+            height: 28px;
+            font-size: 24px;
+            margin: 0;
+            margin-left: 20px;
+        }
+        .sixth .content .span2{
+            width: 96px;
+            height: 12px;
+            font-size: 10px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        .namebox{
+            width: 174px;
+            height: 26px;
+            margin: 0;
+            margin-top: -80px;
+            padding: 6.791px 78.304px 7.209px 7.348px;
+            margin-left: 190px;
+        }
+        .namebox span{
+            font-size: 12.435px;
+
+        }
+        .button{
+            margin: 0;
+            width: 176px;
+            height: 26px;
+            padding: 6px 55px 7px 56px;
+            margin-left: 190px;
+            margin-top: 10px;
+
+        }
+        .button span{
+            font-size: 13.223px;
+            width: 65px;
+            height: 13px;
+
+        }
+        .footer{
+            margin: 0;
+            display: block;
+            justify-content: center;
+            height:auto;
+        }
+        .footer .about h1{
+            font-size: 27px;
+            margin: 0;
+            margin-left: 120px;
+        }
+        .footer .about p{
+            width: 289px;
+            font-size: 14px;
+            margin: 0;
+            margin-left: 39px;
+            margin-top: 10px;
+        }
+        .footer .review h1{
+            font-size: 27px;
+             margin: 0;
+             margin-top: -20px;
+             margin-left: 129px;
+        }
+        .footer .review p{
+            width: 289px;
+            font-size: 14px;
+            margin: 0;
+            margin-left: 39px;
+            margin-top: 10px;
+        }
+        .footer .contacts h1{
+            font-size: 27px;
+        }
+        .footer .contacts p{
+            font-size: 14px;
+           margin: 0;
+           margin-left: 39px;
+           margin-top: 10px;
         }
     }
